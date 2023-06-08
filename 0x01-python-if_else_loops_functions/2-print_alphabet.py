@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-lowercase_alphabet = ''.join(chr(ord('a') + i) for i in range(26))
-print(lowercase_alphabet)
+for i in range(ord('a'), ord('z') + 1):
+    print('{:c}'.format(i), end='')
