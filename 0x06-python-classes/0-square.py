@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-# Author by James Ayim
+"""Defines a square """
+
 
 class Square:
+    """Does nothing"""
     pass
